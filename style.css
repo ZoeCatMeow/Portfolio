@@ -1,0 +1,47 @@
+header {
+  min-height: 100vh;
+  margin-top: 55px;
+  background-image: url('https://ak6.picdn.net/shutterstock/videos/20440156/thumb/12.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+main {
+  scroll-behavior: smooth;
+}
+
+section {
+  align-items: center;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+#portfolio {
+  background-color: lightblue;
+    color: darkblue;
+  justify-content: center;
+}
+
+.portfolio-item {
+  width: 30%;
+  margin: 10px;
+}
+
+#about {
+  background-color: indigo;
+  color: white;
+}
+
+#about img {
+  border-radius: 50%;
+}
+body {
+  background-color: purple;
+}
